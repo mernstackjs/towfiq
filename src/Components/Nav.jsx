@@ -6,7 +6,7 @@ const Nav = () => {
   const navData = [
     { path: "Home", text: "Home" },
     { path: "Laxhjalp", text: "Läxhjälp" },
-    { path: "Om-oss", text: "Om Oss" },
+    { path: "Home", text: "Om Oss" },
   ];
   return (
     <header

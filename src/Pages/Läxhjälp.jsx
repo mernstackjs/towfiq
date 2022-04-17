@@ -74,7 +74,7 @@ function Läxhjälp() {
   ];
 
   return (
-    <Paper sx={{ zIndex: "-99" }}>
+    <Paper sx={{ zIndex: "-99", width: "100vw", height: "100vh" }}>
       <Box>
         <Grid container spacing={3}>
           <Grid item md={8}>
@@ -128,6 +128,36 @@ function Läxhjälp() {
             </ImageList>
           </Grid>
         </Grid>
+      </Box>
+      <Box
+        sx={{
+          boxShadow: "1px 2px 12px 2px rgba(0,0,0,0.19)",
+          display: "flex",
+          flexWrap: "wrap",
+          margin: "10px 0",
+        }}
+      >
+        <img src={läxhjlap} alt="läx" />
+        <Box sx={{ flexGrow: "2", padding: "10px" }}>
+          <Typography>English. Many desktop publishing</Typography>
+          <Typography>English. Many desktop publishing</Typography>
+          <Typography>English. Many desktop publishing</Typography>
+        </Box>
+      </Box>
+      <Box
+        sx={{
+          boxShadow: "1px 2px 12px 2px rgba(0,0,0,0.19)",
+          display: "flex",
+          flexWrap: "wrap",
+          margin: "10px 0",
+        }}
+      >
+        <img src={läxhjlap} alt="läx" />
+        <Box sx={{ flexGrow: "2", padding: "10px" }}>
+          <Typography>English. Many desktop publishing</Typography>
+          <Typography>English. Many desktop publishing</Typography>
+          <Typography>English. Many desktop publishing</Typography>
+        </Box>
       </Box>
     </Paper>
   );
