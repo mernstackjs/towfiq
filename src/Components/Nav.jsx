@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 const Nav = () => {
   const navData = [
-    { path: "Home", text: "/" },
+    { path: "/", text: "Home" },
     { path: "Laxhjalp", text: "Läxhjälp" },
     { path: "Home", text: "Om Oss" },
   ];
