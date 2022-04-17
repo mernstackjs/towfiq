@@ -23,7 +23,7 @@ function App() {
       <Routes>
         <Route path="/:id" element={<SinglePage />} />
         <Route path="/Laxhjalp" element={<Läxhjälp />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
     </div>
