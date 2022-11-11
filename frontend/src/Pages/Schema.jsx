@@ -8,7 +8,7 @@ const Schema = () => {
       <table id="customers" className="table-auto mb-48">
         <tr>
           <th>Dag</th>
-          <th>Tid</th>
+          <th>Tiden</th>
         </tr>
         <tr>
           <td>Måndag</td>
