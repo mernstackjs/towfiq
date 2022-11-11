@@ -5,7 +5,7 @@ import Panner from "./Components/Panner";
 import Kontakt from "./Pages/Kontakt";
 import Läxhjalp from "./Pages/Läxhjalp";
 import Schema from "./Pages/Schema";
-import Välja_Amne from "./Pages/Välja_Amne";
+import VäljaAmne from "./Pages/VäljaAmne";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <Panner />
       <Routes>
         <Route path="/schema" element={<Schema />} />
-        <Route path="/välja-Amne" element={<Välja_Amne />} />
+        <Route path="/välja-Amne" element={<VäljaAmne />} />
         <Route path="/läxhjalp" element={<Läxhjalp />} />
         <Route path="/kontakt" element={<Kontakt />} />
       </Routes>

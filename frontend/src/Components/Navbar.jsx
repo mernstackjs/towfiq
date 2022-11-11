@@ -28,7 +28,9 @@ const Navbar = () => {
         text-gray-800"
         >
           <span className="text-3xl text-indigo-600 mr-1 pt-2">
-            <img className="w-[70px]" src={logo} alt="" />
+            <Link to="/">
+              <img className="w-[70px]" src={logo} alt="" />
+            </Link>
           </span>
         </div>
 
